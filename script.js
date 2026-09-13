@@ -15,6 +15,12 @@ if (menuToggle && mainNav) {
   });
 }
 
+const WHATSAPP_LINK = 'https://wa.me/919971586565?text=Hello%20Balvir%20Ji%2C%20I%20would%20like%20to%20book%20a%20consultation%20at%20Dr.%20BRC%20Clinic%40Home.%20Please%20share%20the%20available%20appointment%20slots';
+
+document.querySelectorAll('[data-whatsapp-link]').forEach((link) => {
+  link.href = WHATSAPP_LINK;
+});
+
 const details = document.querySelectorAll('.faq-list details');
 
 details.forEach((item) => {

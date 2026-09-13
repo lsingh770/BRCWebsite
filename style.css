@@ -123,8 +123,17 @@ strong {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.7rem;
+  justify-content: center;
   min-width: 0;
+}
+
+.brand-logo {
+  display: block;
+  width: 120px;
+  height: auto;
+  max-height: 72px;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 12px rgba(16, 38, 30, 0.08));
 }
 
 .brand-mark {
